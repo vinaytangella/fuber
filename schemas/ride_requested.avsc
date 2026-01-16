@@ -1,0 +1,14 @@
+{
+    "type":"record",
+    "name":"RideRequested",
+    "namespace":"com.fuber.events",
+    "fields":[
+        {"name":"ride_id","type":"string"},
+        {"name":"user_id","type":"string"},
+        {"name":"pickup_lat","type":"double"},
+        {"name":"pickup_lon","type":"double"},
+        {"name":"dropoff_lat","type":"double"},
+        {"name":"dropoff_lat","type":"double"},
+        {"name":"requested_at","type":"long"}
+    ]
+}
