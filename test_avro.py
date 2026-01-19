@@ -7,9 +7,7 @@ from pathlib import Path
 # 1. Load schema
 current_file_path = Path(__file__).resolve()
 current_dir = current_file_path.parent
-print(current_dir)
 file_path = str(current_dir)+"/schemas/ride_requested.avsc"
-print(file_path)
 with open(file_path, 'r') as f:
     schema = json.load(f)
 
